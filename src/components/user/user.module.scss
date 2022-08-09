@@ -1,0 +1,14 @@
+.tr {
+  height: 40px;
+  padding: 1rem;
+  //   background-color: red;
+}
+.td {
+  display: flex;
+  overflow: scroll;
+  width: 10%;
+  div {
+    width: 50%;
+    border: 1px solid gray;
+  }
+}
