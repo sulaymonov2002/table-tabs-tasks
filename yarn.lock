@@ -4933,7 +4933,11 @@ immer@^9.0.7:
 
 immutable@^4.0.0:
   version "4.1.0"
+<<<<<<< HEAD
   resolved "https://registry.npmjs.org/immutable/-/immutable-4.1.0.tgz"
+=======
+  resolved "https://registry.yarnpkg.com/immutable/-/immutable-4.1.0.tgz#f795787f0db780183307b9eb2091fcac1f6fafef"
+>>>>>>> 2b39934e3ee260b4c306de24dc526b77fc66116c
   integrity sha512-oNkuqVTA8jqG1Q6c+UglTOD1xhC1BtjKI7XkCXRkZHrN5m18/XsnUp8Q89GkQO/z+0WjonSvl0FLhDYftp46nQ==
 
 import-fresh@^3.0.0, import-fresh@^3.1.0, import-fresh@^3.2.1:
@@ -7792,7 +7796,11 @@ sass-loader@^12.3.0:
 
 sass@^1.54.6:
   version "1.54.6"
+<<<<<<< HEAD
   resolved "https://registry.npmjs.org/sass/-/sass-1.54.6.tgz"
+=======
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.54.6.tgz#5a12c268db26555c335028e355d6b7b1a5b9b4c8"
+>>>>>>> 2b39934e3ee260b4c306de24dc526b77fc66116c
   integrity sha512-DUqJjR2WxXBcZjRSZX5gCVyU+9fuC2qDfFzoKX9rV4rCOcec5mPtEafTcfsyL3YJuLONjWylBne+uXVh5rrmFw==
   dependencies:
     chokidar ">=3.0.0 <4.0.0"
