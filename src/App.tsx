@@ -1,7 +1,9 @@
 
 
 function App() {
-  return <div className="body"></div>;
+  return <div className="body">
+    
+  </div>;
 }
 
 export default App;
