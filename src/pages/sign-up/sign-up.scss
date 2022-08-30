@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper-sign {
+  height: 100vh;
+  background-image: url("../../assets/images/signUpBg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .sign-up-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1 {
+      font-family: "Signika Negative";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 55px;
+      line-height: 68px;
+      color: #a6842e;
+    }
+  }
+  .form-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem 1.5rem;
+    background: #d2b467;
+
+    border-radius: 39px;
+
+    h2 {
+      width: 245px;
+      height: 65px;
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      border-radius: 50px 50px 0px 0px;
+      font-family: "Signika Negative";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 45px;
+      line-height: 55px;
+      color: #a6842e;
+      text-align: center;
+    }
+    form {
+      background-color: #ffffff;
+      width: 400px;
+      height: 420px;
+      border-radius: 0px 10px 10px 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 46px;
+    }
+  }
+}
+
+.email {
+  fieldset {
+    border: 1px solid #a6842e;
+    border-radius: 15px;
+    width: 300px;
+    color: #a6842e;
+    input {
+      width: 100%;
+      padding: 5px 4px;
+      border-radius: 15px;
+      border: none;
+      outline: none;
+    }
+  }
+}
+.password {
+  fieldset {
+    border: 1px solid #a6842e;
+    border-radius: 15px;
+    width: 300px;
+    color: #a6842e;
+    input {
+      width: 100%;
+      padding: 5px 4px;
+      border-radius: 15px;
+      border: none;
+      outline: none;
+    }
+  }
+}
